@@ -1,0 +1,56 @@
+form {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#form-box{
+    background: rgba(156, 150, 150, 0.315);
+    border: 1px solid grey;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 6px 10px rgba(49, 48, 48, 0.61);
+}
+
+.form-input {
+    width: 90%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+hr {
+    background: rgb(146, 91, 55);
+    height: 3px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+#add-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#submit-btn {
+    margin-top: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 50px;
+    background: rgba(120, 120, 212, 0.473);
+}
+
+.form-warning{
+    margin-top: 20px;
+    background: rgba(190, 87, 87, 0.493);
+    padding: 10px 0px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+}

@@ -1,0 +1,16 @@
+#profile{
+    height: 50%;
+    width: 100%;
+    display:grid;
+    grid-template-columns: auto;
+}
+
+#profile-picture{
+    width: 70%;
+    height: 80%;
+    margin-top: 30px;
+}
+
+.counts{
+    font-size: 25px;
+}

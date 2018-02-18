@@ -1,0 +1,52 @@
+.link-box {
+    width: 100%;
+    height: 70px;
+    background: rgba(128, 128, 128, 0.315);
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 20% 50% 15% 15%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tag {
+    margin-right: 20px;
+    padding: 20px;
+    background: rgb(78, 139, 116);
+    border-radius: 50%;
+    float:right;
+    align-self: center;
+}
+
+
+.shared, .notshared{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.shared {
+    background: rgb(53, 145, 53);
+
+}
+
+.notshared {
+    background: white;
+}
+
+.title {
+    font-size: 20px;
+    align-self: center;
+    margin-left: 30px;
+}
+
+.remove-btn{
+    outline:none;
+    padding: 10px 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    background: rgba(165, 103, 103, 0.555)
+}
